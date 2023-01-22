@@ -1,0 +1,37 @@
+.circle {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  padding-top: 30px;
+  background: rgb(224, 217, 15);
+  color: #000;
+  text-align: center;
+  font-size: 100px;
+}
+
+.outside {
+  padding-top: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.increment {
+  border: none;
+  background-color: aqua;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left: 555px;
+  cursor: pointer;
+}
+
+.changeColor {
+  border: none;
+  background-color: aqua;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+  margin-left: 630px;
+  cursor: pointer;
+}
