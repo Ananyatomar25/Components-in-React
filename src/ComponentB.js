@@ -2,7 +2,12 @@ import React from "react";
 import "./ComponentB.css";
 
 const ComponentB = (props) => {
- 
+  var boolean = false;
+  function changeColor() {
+    const btn = document.getElementById("btn");
+    if (boolean === true) btn.style.backgroundColor = "red";
+    else btn.style.backgroundColor = "blue";
+  }
   return (
     <>
       <div className="outside">
@@ -20,7 +25,7 @@ const ComponentB = (props) => {
       <br />
 
       <div>
-        <button className="changeColor" id="btn">
+        <button className="changeColor" id="btn" onClick={changeColor}>
           Change Color
         </button>
       </div>
